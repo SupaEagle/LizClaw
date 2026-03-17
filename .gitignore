@@ -1,0 +1,26 @@
+# OpenClaw
+.openclaw/
+
+# Knowledge base (large binary DB)
+knowledge_base/*.db
+knowledge_base/__pycache__/
+knowledge_base/venv/
+
+# Cron logs and caches
+.cron/*.db
+.cron/__pycache__/
+.cron/locks/
+.cron/logs/
+.cron/.ingest.lock
+
+# Memory daily notes (personal - optional)
+# memory/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# OS
+.DS_Store

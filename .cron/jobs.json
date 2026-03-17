@@ -1,0 +1,37 @@
+{
+  "healthcheck": {
+    "command": "openclaw healthcheck --brief",
+    "schedule": "hourly",
+    "notify_on_failure": true,
+    "notify_channel": "webchat",
+    "enabled": false,
+    "timeout": 300
+  },
+  "memory-maintenance": {
+    "command": "python3 -c \"from cron import query_jobs; print('OK')\"",
+    "schedule": "daily",
+    "notify_on_failure": false,
+    "enabled": false,
+    "timeout": 60
+  },
+  "gateway-status": {
+    "command": "openclaw gateway status",
+    "schedule": "hourly",
+    "notify_on_failure": false,
+    "notify_channel": null,
+    "enabled": true,
+    "timeout": 30,
+    "last_run": "2026-03-17T06:02:48.186212",
+    "last_status": "success"
+  },
+  "memory-synthesize": {
+    "command": "python3 /data/.openclaw/workspace/memory/memory_cron.py",
+    "schedule": "weekly",
+    "notify_on_failure": true,
+    "notify_channel": null,
+    "enabled": true,
+    "timeout": 60,
+    "last_run": null,
+    "last_status": null
+  }
+}

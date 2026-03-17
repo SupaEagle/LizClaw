@@ -1,0 +1,5 @@
+# Sample URLs for knowledge base testing
+https://news.ycombinator.com
+https://github.com/openclaw/openclaw
+# Local file test (should fail - invalid scheme)
+file:///etc/passwd
