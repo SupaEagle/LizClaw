@@ -3,16 +3,18 @@
     "email": null,
     "calendar": null,
     "weather": null,
-    "memory_synthesize": "2026-03-17T06:12:04.659724",
+    "memory_synthesize": "2026-03-17T23:05:25.443437",
     "error_log_scan": null,
     "security_audit": null,
-    "healthcheck": null,
-    "cron_failure_check": "2026-03-17T13:11:39.121260",
+    "healthcheck": "2026-03-17T17:12:47.753067",
+    "cron_failure_check": "2026-03-17T23:05:30.438594",
     "heartbeat_run": "2026-03-17T13:11:22.930335",
-    "git_backup": "2026-03-17T14:11:33.413233"
+    "git_backup": "2026-03-17T14:11:33.413233",
+    "persistent_failure_check": "2026-03-17T17:12:47.905295",
+    "git_backup_check": "2026-03-17T17:12:47.939155"
   },
   "memory": {
-    "last_synthesize": "2026-03-17T06:11:56.512903",
+    "last_synthesize": "2026-03-17T23:05:26.755942",
     "synthesize_interval_days": 7
   },
   "cron": {
