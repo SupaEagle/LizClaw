@@ -1,4 +1,12 @@
 {
+  "asana-daily-tasks": {
+    "command": "python3 /data/.openclaw/workspace/.cron/asana_incomplete.py",
+    "schedule": "0 4 * * *",
+    "notify_on_failure": true,
+    "notify_channel": "webchat",
+    "enabled": true,
+    "timeout": 120
+  },
   "healthcheck": {
     "command": "openclaw healthcheck --brief",
     "schedule": "hourly",
@@ -21,7 +29,7 @@
     "notify_channel": null,
     "enabled": true,
     "timeout": 30,
-    "last_run": "2026-03-17T06:02:48.186212",
+    "last_run": "2026-03-22T21:48:41.414738",
     "last_status": "success"
   },
   "memory-synthesize": {
