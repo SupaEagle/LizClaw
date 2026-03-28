@@ -1,17 +1,19 @@
 {
-  "email": null,
-  "calendar": null,
-  "weather": null,
-  "memory_synthesize": "2026-03-17T23:05:26.755942",
-  "error_log_scan": null,
-  "security_audit": null,
-  "healthcheck": "2026-03-28T07:23:44.381932+00:00",
-  "cron_failure_check": "2026-03-28T11:23:39.137712+00:00",
-  "heartbeat_run": "2026-03-28T11:23:39.137712+00:00",
-  "git_backup": "2026-03-28T11:23:39.137712+00:00",
-  "persistent_failure_check": "2026-03-28T11:23:39.137712+00:00",
-  "git_backup_check": "2026-03-28T07:23:44.381932+00:00",
-  "daily_checks": "2026-03-28T09:23:39.207633+00:00",
-  "repo_size_check": "2026-03-25T13:17:19.507527",
-  "memory_index_coverage": "2026-03-25T13:17:19.507529"
+    "lastChecks": {
+        "errorLog": null,
+        "securityAudit": null,
+        "lastDailyChecks": null,
+        "healthcheck": null,
+        "git_backup": null,
+        "memory_index_coverage": null,
+        "memory_synthesize": "2026-03-17T23:05:26.755942",
+        "repo_size_check": null,
+        "weather": null,
+        "calendar": null,
+        "email": null,
+        "cron_failure_check": "2026-03-28T11:23:39.137712+00:00",
+        "persistent_failure_check": "2026-03-28T11:23:39.137712+00:00",
+        "heartbeat_run": "2026-03-28T11:23:39.137712+00:00",
+        "git_backup_check": "2026-03-28T11:23:39.137712+00:00"
+    }
 }
